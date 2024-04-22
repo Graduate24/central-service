@@ -1,7 +1,7 @@
 {
-  "name": "thusa api文档",
+  "name": "central service api文档",
   "version": "1.0.0",
   "description": "",
   "title": "docs",
-  "url" : "http://82.156.233.85:9001/"
+  "url" : "http://127.0.0.1:9001"
 }

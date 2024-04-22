@@ -1,0 +1,37 @@
+{
+  "MONGODB_DATABASES": {
+    "default": {
+      "USER": "xx",
+      "PASSWD": "xx",
+      "HOST": "xx",
+      "NAME": "xx"
+    }
+  },
+  "DATABASES": {
+    "default": {
+      "ENGINE": "django.db.backends.mysql",
+      "HOST": "db",
+      "PORT": 3306,
+      "NAME": "xx",
+      "USER": "xx",
+      "PASSWORD": "xx"
+    }
+  },
+  "FILE_SERVER": [
+    "http://fileserver:8001/"
+  ],
+  "USE_REDIS_LAYER": true,
+  "REDIS_SERVER": "redis",
+  "RABBIT_CONFIG": {
+    "RABBITMQ_HOSTS": "rabbitmq",
+    "RABBITMQ_PORT": 5672,
+    "RABBITMQ_VHOST": "xx",
+    "RABBITMQ_USER": "xx",
+    "RABBITMQ_PWD": "xx"
+  },
+  "DEBUG": false,
+  "ALLOWED_HOSTS": [
+    "*"
+  ],
+  "LOGIN_EXEMPT":false
+}
